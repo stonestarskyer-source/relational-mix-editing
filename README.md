@@ -2,7 +2,7 @@
 
 **Musical Relationship Constraints in AI-Assisted Local Mix Editing**
 
-《人工智能混音局部编辑的音乐关系约束研究》的代码与研究文档。当前对齐v1.9工作稿；S1、S2以可直接阅读的Markdown文档提供，不要求读者另外下载期刊附件。
+《人工智能混音局部编辑的音乐关系约束研究》的代码与研究文档。S1、S2补充材料以可直接阅读的Markdown文档提供。
 
 ## 研究文档
 
