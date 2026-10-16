@@ -52,6 +52,8 @@ python code/run_dsp_example.py --out output/dsp
 
 ## 版本与引用
 
-论文主稿以v1.9为本次对齐依据；核心脚本逐字保留自v1.8材料。发布时建立`paper-v1.9`标签，并记录实际提交编号。引用固定提交下的S1／S2文件，不只指向不断更新的主分支。仓库地址、发布日期和Release以真实发布记录为准，不预填未生成的DOI。
+本仓库于2026-10-16公开：[stonestarskyer-source/relational-mix-editing](https://github.com/stonestarskyer-source/relational-mix-editing)。论文主稿以v1.9为本次对齐依据；核心脚本逐字保留自v1.8材料。版本标识为`paper-v1.9`，最终提交编号由对应标签及Release记录。引用固定提交下的S1／S2文件，不只指向不断更新的主分支。本材料没有DOI。
+
+Apple Silicon Mac实际核验已完成：Python 3.13.5、固定依赖、15项测试及原始DSP自检通过。平台间数值和样本差异见[复算说明](docs/reproduction_check.md#2026-10-16-apple-silicon-mac-实际复算)。
 
 论文全文与作者工作记录不属于本仓库的发布内容。论文署名、发表状态与最终许可均不能从代码运行成功推定。

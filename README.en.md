@@ -17,3 +17,5 @@ For the DSP example, create a separate Python 3.13 environment and install `code
 The candidate script covers a fixed two-track analytical example and a single-target scoring helper, not a general DAW controller, EQ rendering system or multi-target listening evaluator. See [implementation boundaries](docs/provenance.md).
 
 Public availability is distinct from a reuse license. No project-wide license has been chosen by the author; see [licensing status](docs/licensing.md). The manuscript and private review material are excluded.
+
+Published on 2026-10-16 at [stonestarskyer-source/relational-mix-editing](https://github.com/stonestarskyer-source/relational-mix-editing). Version identifier: `paper-v1.9`. An actual Apple Silicon macOS run with the pinned Python 3.13.5 environment passed the 15 tests and original DSP assertions; see the separate [reproduction record](docs/reproduction_check.md). This release migrates research materials from v1.8 to the v1.9 manuscript context and does not add listening-study results.
