@@ -1,0 +1,90 @@
+{
+  "run_scope": "packaging-time local Linux execution; not user Mac or GitHub CI",
+  "executed_at_utc": "2026-10-16T06:49:58.140722+00:00",
+  "reference_origin": "v1.8 original records",
+  "manuscript_target": "v1.9",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "soundfile": "0.13.1",
+    "pedalboard": "0.9.23"
+  },
+  "comparisons": {
+    "linear": {
+      "reference_rms_dbfs": -158.3273889178004,
+      "reproduced_rms_dbfs": -158.3273889178004,
+      "difference_db": 0.0,
+      "peak_equal": true
+    },
+    "shared_compression": {
+      "reference_rms_dbfs": -36.468766863449716,
+      "reproduced_rms_dbfs": -36.468766863449716,
+      "difference_db": 0.0,
+      "peak_equal": true
+    }
+  },
+  "waveform_checks": [
+    {
+      "file": "compressed_A_20-22s.wav",
+      "sample_rate_equal": true,
+      "sample_shape": [
+        96000,
+        2
+      ],
+      "samples_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "compressed_B_20-22s.wav",
+      "sample_rate_equal": true,
+      "sample_shape": [
+        96000,
+        2
+      ],
+      "samples_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "linear_A_20-22s.wav",
+      "sample_rate_equal": true,
+      "sample_shape": [
+        96000,
+        2
+      ],
+      "samples_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "linear_B_20-22s.wav",
+      "sample_rate_equal": true,
+      "sample_shape": [
+        96000,
+        2
+      ],
+      "samples_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "test_band_20-22s.wav",
+      "sample_rate_equal": true,
+      "sample_shape": [
+        96000,
+        2
+      ],
+      "samples_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "file": "test_v_20-22s.wav",
+      "sample_rate_equal": true,
+      "sample_shape": [
+        96000,
+        2
+      ],
+      "samples_equal": true,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "candidate_record_equal": true
+}

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the specific released version of these research materials. The associated manuscript is a working draft."
+title: "Musical Relationship Constraints in AI-Assisted Local Mix Editing: Code and Research Protocols"
+type: software
+authors:
+  - family-names: Zeng
+    given-names: Peiyun
+version: "paper-v1.9"
+abstract: "Synthetic signal verification, finite candidate calculations, and a proposed independent listening protocol for local mix editing. No human listening results are included."
+keywords:
+  - local mix editing
+  - musical relationship constraints
+  - minimal intervention principle

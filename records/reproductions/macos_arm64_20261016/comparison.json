@@ -1,0 +1,67 @@
+{
+  "executed_at": "2026-10-16T15:09:30.137129+08:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "numpy": "2.3.5",
+    "soundfile": "0.13.1",
+    "pedalboard": "0.9.23"
+  },
+  "architecture": "arm64",
+  "libsndfile": "1.2.2",
+  "candidate_json_equals_reference": true,
+  "dsp_self_checks": "passed",
+  "unittest_count": 15,
+  "unittest_status": "passed",
+  "residual_comparison": {
+    "linear": {
+      "reference_dbfs": -158.3273889178004,
+      "macos_dbfs": -158.3273889178004,
+      "difference_db": 0.0
+    },
+    "shared_compression": {
+      "reference_dbfs": -36.468766863449716,
+      "macos_dbfs": -36.46876686409012,
+      "difference_db": -6.404050623132207e-10
+    }
+  },
+  "excerpt_sample_comparison": {
+    "compressed_A_20-22s.wav": {
+      "sample_rate_equal": true,
+      "shape_equal": true,
+      "float32_samples_equal": false,
+      "maximum_absolute_sample_difference": 2.9802322387695312e-08
+    },
+    "compressed_B_20-22s.wav": {
+      "sample_rate_equal": true,
+      "shape_equal": true,
+      "float32_samples_equal": false,
+      "maximum_absolute_sample_difference": 2.9802322387695312e-08
+    },
+    "linear_A_20-22s.wav": {
+      "sample_rate_equal": true,
+      "shape_equal": true,
+      "float32_samples_equal": true,
+      "maximum_absolute_sample_difference": 0.0
+    },
+    "linear_B_20-22s.wav": {
+      "sample_rate_equal": true,
+      "shape_equal": true,
+      "float32_samples_equal": true,
+      "maximum_absolute_sample_difference": 0.0
+    },
+    "test_band_20-22s.wav": {
+      "sample_rate_equal": true,
+      "shape_equal": true,
+      "float32_samples_equal": true,
+      "maximum_absolute_sample_difference": 0.0
+    },
+    "test_v_20-22s.wav": {
+      "sample_rate_equal": true,
+      "shape_equal": true,
+      "float32_samples_equal": true,
+      "maximum_absolute_sample_difference": 0.0
+    }
+  },
+  "scope": "Synthetic DSP and analytical/scoring-rule checks only; no listening study, REAPER, model experiment or CI run."
+}

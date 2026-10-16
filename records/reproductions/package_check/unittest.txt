@@ -1,0 +1,20 @@
+test_absolute_protection_and_reference_costs (test_candidates.CandidateChecks.test_absolute_protection_and_reference_costs) ... ok
+test_bank_has_51_unique_settings (test_candidates.CandidateChecks.test_bank_has_51_unique_settings) ... ok
+test_fixed_random_order (test_candidates.CandidateChecks.test_fixed_random_order) ... ok
+test_illustrative_scoring_logic (test_candidates.CandidateChecks.test_illustrative_scoring_logic) ... ok
+test_invalid_tolerance_is_rejected (test_candidates.CandidateChecks.test_invalid_tolerance_is_rejected) ... ok
+test_no_candidate_meeting_an_outside_target (test_candidates.CandidateChecks.test_no_candidate_meeting_an_outside_target) ... ok
+test_original_self_test (test_candidates.CandidateChecks.test_original_self_test) ... ok
+test_same_pool_for_both_directions (test_candidates.CandidateChecks.test_same_pool_for_both_directions) ... ok
+test_task_summary (test_candidates.CandidateChecks.test_task_summary) ... ok
+test_zero_target_selects_no_change (test_candidates.CandidateChecks.test_zero_target_selects_no_change) ... ok
+test_local_markdown_links_resolve (test_materials.MaterialChecks.test_local_markdown_links_resolve) ... ok
+test_original_files_unchanged (test_materials.MaterialChecks.test_original_files_unchanged) ... ok
+test_private_documents_not_in_public_tree (test_materials.MaterialChecks.test_private_documents_not_in_public_tree) ... ok
+test_reference_and_reproduction_are_separate (test_materials.MaterialChecks.test_reference_and_reproduction_are_separate) ... ok
+test_s1_and_s2_have_all_source_sections (test_materials.MaterialChecks.test_s1_and_s2_have_all_source_sections) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.012s
+
+OK

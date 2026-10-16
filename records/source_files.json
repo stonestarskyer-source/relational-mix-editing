@@ -1,0 +1,103 @@
+{
+  "source_archive_sha256": "861abefa90d987b25629c9195b21b17d029734cb9205315478239db3b2ac01c8",
+  "files": [
+    {
+      "path": "code/candidate_protocol.py",
+      "source": "v1.8 formal materials",
+      "sha256": "06207eb6775ce1a035fe0d8d6c5f9a63365506841156a3925d84ec73dc4b0cff",
+      "source_sha256": "06207eb6775ce1a035fe0d8d6c5f9a63365506841156a3925d84ec73dc4b0cff",
+      "byte_identical": true
+    },
+    {
+      "path": "code/requirements.txt",
+      "source": "v1.8 formal materials",
+      "sha256": "d3874b23594b5c08f4e81b1da51ea22cebe89b51b15347f5c144cdfe67e482b9",
+      "source_sha256": "d3874b23594b5c08f4e81b1da51ea22cebe89b51b15347f5c144cdfe67e482b9",
+      "byte_identical": true
+    },
+    {
+      "path": "code/run_dsp_example.py",
+      "source": "v1.8 formal materials",
+      "sha256": "8bd88542b3c019b7d4cfb6486f7e635b9ee4063f5d0c78423ccf8a5e2dee21cf",
+      "source_sha256": "8bd88542b3c019b7d4cfb6486f7e635b9ee4063f5d0c78423ccf8a5e2dee21cf",
+      "byte_identical": true
+    },
+    {
+      "path": "audio_excerpts/compressed_A_20-22s.wav",
+      "source": "v1.8 formal materials",
+      "sha256": "38705b0fd1a65f60b48950e54a1098bf4a6339f69c7744ba7219d59b130dd650",
+      "source_sha256": "38705b0fd1a65f60b48950e54a1098bf4a6339f69c7744ba7219d59b130dd650",
+      "byte_identical": true
+    },
+    {
+      "path": "audio_excerpts/compressed_B_20-22s.wav",
+      "source": "v1.8 formal materials",
+      "sha256": "0173e27a72595ed0757ba353fa52cacb7716bf182c5394bdd2bbf8393c792ec5",
+      "source_sha256": "0173e27a72595ed0757ba353fa52cacb7716bf182c5394bdd2bbf8393c792ec5",
+      "byte_identical": true
+    },
+    {
+      "path": "audio_excerpts/linear_A_20-22s.wav",
+      "source": "v1.8 formal materials",
+      "sha256": "2cb4b860d4eddaecdd7568a1f3f5217cf60c83028695cc7adec8d76d15573979",
+      "source_sha256": "2cb4b860d4eddaecdd7568a1f3f5217cf60c83028695cc7adec8d76d15573979",
+      "byte_identical": true
+    },
+    {
+      "path": "audio_excerpts/linear_B_20-22s.wav",
+      "source": "v1.8 formal materials",
+      "sha256": "2d0f4ab21acfcb00bfaf570d4bf7d8f6d7ebfc7b8a4bedcd3e9b8970e57c7b89",
+      "source_sha256": "2d0f4ab21acfcb00bfaf570d4bf7d8f6d7ebfc7b8a4bedcd3e9b8970e57c7b89",
+      "byte_identical": true
+    },
+    {
+      "path": "audio_excerpts/test_band_20-22s.wav",
+      "source": "v1.8 formal materials",
+      "sha256": "3314bb762a7a6c981ec69270c764b5b8151f71b66bbf6db7db073511cfd9af48",
+      "source_sha256": "3314bb762a7a6c981ec69270c764b5b8151f71b66bbf6db7db073511cfd9af48",
+      "byte_identical": true
+    },
+    {
+      "path": "audio_excerpts/test_v_20-22s.wav",
+      "source": "v1.8 formal materials",
+      "sha256": "a15fe0e1c47029fe443400084e63e9f9ec619bd69cfe6ab55fb64103f201ba13",
+      "source_sha256": "a15fe0e1c47029fe443400084e63e9f9ec619bd69cfe6ab55fb64103f201ba13",
+      "byte_identical": true
+    },
+    {
+      "path": "records/reference/analytical_candidates.json",
+      "source": "v1.8 formal materials",
+      "sha256": "7cc9752d01c9b42f37cd2f5a7fa9875749de3a0a2bb79e0f48165cfd6c95c1e0",
+      "source_sha256": "7cc9752d01c9b42f37cd2f5a7fa9875749de3a0a2bb79e0f48165cfd6c95c1e0",
+      "byte_identical": true
+    },
+    {
+      "path": "records/reference/component_results.json",
+      "source": "v1.8 formal materials",
+      "sha256": "57ab6a1d594fc67f7a933c544ec5ce506feefbf906939f4078f3ed9488c4b6c1",
+      "source_sha256": "57ab6a1d594fc67f7a933c544ec5ce506feefbf906939f4078f3ed9488c4b6c1",
+      "byte_identical": true
+    },
+    {
+      "path": "records/reference/residual_trace.csv",
+      "source": "v1.8 formal materials",
+      "sha256": "996561cb089651f98797e689fbdfe92b35f346562120d2693c8ee5aa4a0b2972",
+      "source_sha256": "996561cb089651f98797e689fbdfe92b35f346562120d2693c8ee5aa4a0b2972",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/figure6_residual.png",
+      "source": "supplied v1.9 manuscript word/media/image6.png",
+      "sha256": "170096227c479fa8ff46bf4c7e4e0b35f9fa4079bbe2524a4ff988eaa3ea01fa",
+      "source_sha256": "170096227c479fa8ff46bf4c7e4e0b35f9fa4079bbe2524a4ff988eaa3ea01fa",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/figure7_candidates.png",
+      "source": "supplied v1.9 manuscript word/media/image7.png",
+      "sha256": "7ddfc72a8fdf0d113ad979404353d2de24dcf68f1748b695b84772a2eb88f210",
+      "source_sha256": "7ddfc72a8fdf0d113ad979404353d2de24dcf68f1748b695b84772a2eb88f210",
+      "byte_identical": true
+    }
+  ]
+}

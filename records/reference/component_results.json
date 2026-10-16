@@ -1,0 +1,57 @@
+{
+  "status": "executed locally using open-source Pedalboard; not REAPER; not model replication",
+  "signal_kind": "deterministic synthetic diagnostic signals, not musical stems or human voice",
+  "sample_rate": 48000,
+  "duration_s": 36.0,
+  "dtype": "float32",
+  "file_subtype": "FLOAT",
+  "seed": 20261013,
+  "stable_window_s": [
+    16.05,
+    31.95
+  ],
+  "gain_db": 1.5,
+  "gamma": 1.1885022274370185,
+  "compressor": {
+    "threshold_db": -18,
+    "ratio": 4,
+    "attack_ms": 10,
+    "release_ms": 100
+  },
+  "linear": {
+    "reference_rms": 0.18939910684402625,
+    "residual_rms": 1.2123570830253025e-08,
+    "residual_rms_dbfs": -158.3273889178004,
+    "residual_relative_db": -143.87494745088935,
+    "residual_peak": 8.940696716308594e-08
+  },
+  "shared_compression": {
+    "reference_rms": 0.10859638419789089,
+    "residual_rms": 0.015016255765429662,
+    "residual_rms_dbfs": -36.468766863449716,
+    "residual_relative_db": -17.185074169786958,
+    "residual_peak": 0.03667527437210083
+  },
+  "versions": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "soundfile": "0.13.1",
+    "pedalboard": "0.9.23"
+  },
+  "sha256": {
+    "test_v": "d6c0b9ff81bb8924026e5a52f43f3651416c682c0742a17e7dfad0a786bf8d75",
+    "test_band": "d10076f1b614a2d709217eb7842e5dbffe6a5f1e6011b3aec0b51753eeaae766",
+    "baseline": "cef99ce04100563f4f5b85f25e9d54867e7d6cb49a23e94b9fb6bfdfcd114c5a",
+    "linear_A": "86c5b432b077ca19d388b8ea4fb25e2859ff89719923c1d96a34b4ad4bd58a58",
+    "linear_B": "f786b61ef8445f97d1f3466aa1e98acdad28491650a7874269c15bb3727ce837",
+    "compressed_A": "b214737e332ae1df7f043631069ae2e18bbbeff5b72fc41ab5e0012b5f99d0f9",
+    "compressed_B": "104a1ab2d928babf6b07858d38f6287bc0f16155120a48ef77f3fc69ba48d3d3"
+  },
+  "limitations": [
+    "Pedalboard compressor is not ReaComp and does not reproduce all ReaComp settings.",
+    "No trained AI system, subjective listening test, or musical-quality evaluation was run.",
+    "Only the stable window tests the constant-gain identity.",
+    "Not a universal residual threshold."
+  ]
+}
